@@ -1,0 +1,46 @@
+manifest:
+  name: mytools
+  version: 1.0.0
+  commands:
+  - command: hmmfetch
+    docker_image: ghcr.io/charlenelawdes/hmmer-docker
+    docker_command: hmmfetch
+  - command: hmmbuild
+    docker_image: ghcr.io/charlenelawdes/hmmer-docker
+    docker_command: hmmbuild
+  - command: hmmpress
+    docker_image: ghcr.io/charlenelawdes/hmmer-docker
+    docker_command: hmmpress
+  - command: hmmscan
+    docker_image: ghcr.io/charlenelawdes/hmmer-docker
+    docker_command: hmmscan
+- command: hmmsearch
+    docker_image: ghcr.io/charlenelawdes/hmmer-docker
+    docker_command: hmmsearch
+- command: hmmsim
+    docker_image: ghcr.io/charlenelawdes/hmmer-docker
+    docker_command: hmmsim
+- command: hmmstat
+    docker_image: ghcr.io/charlenelawdes/hmmer-docker
+    docker_command: hmmstat
+- command: jackhmmer
+    docker_image: ghcr.io/charlenelawdes/hmmer-docker
+    docker_command: jackhmmer
+- command: makehmmerdb
+    docker_image: ghcr.io/charlenelawdes/hmmer-docker
+    docker_command: makehmmerdb
+- command: nhmmer
+    docker_image: ghcr.io/charlenelawdes/hmmer-docker
+    docker_command: nhmmer
+- command: nhmmscan
+    docker_image: ghcr.io/charlenelawdes/hmmer-docker
+    docker_command: nhmmscan
+- command: phmmer
+    docker_image: ghcr.io/charlenelawdes/hmmer-docker
+    docker_command: phmmer
+  - command: prodigal
+    docker_image: ghcr.io/charlenelawdes/prodigal-docker
+    docker_command: prodigal
+  -command: chopper
+    docker_image: ghcr.io/charlenelawdes/chopper-docker
+    docker_command: chopper
