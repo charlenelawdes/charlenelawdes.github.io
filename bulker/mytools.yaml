@@ -14,28 +14,28 @@ manifest:
   - command: hmmscan
     docker_image: ghcr.io/charlenelawdes/hmmer-docker
     docker_command: hmmscan
-- command: hmmsearch
+  - command: hmmsearch
     docker_image: ghcr.io/charlenelawdes/hmmer-docker
     docker_command: hmmsearch
-- command: hmmsim
+  - command: hmmsim
     docker_image: ghcr.io/charlenelawdes/hmmer-docker
     docker_command: hmmsim
-- command: hmmstat
+  - command: hmmstat
     docker_image: ghcr.io/charlenelawdes/hmmer-docker
     docker_command: hmmstat
-- command: jackhmmer
+  - command: jackhmmer
     docker_image: ghcr.io/charlenelawdes/hmmer-docker
     docker_command: jackhmmer
-- command: makehmmerdb
+  - command: makehmmerdb
     docker_image: ghcr.io/charlenelawdes/hmmer-docker
     docker_command: makehmmerdb
-- command: nhmmer
+  - command: nhmmer
     docker_image: ghcr.io/charlenelawdes/hmmer-docker
     docker_command: nhmmer
-- command: nhmmscan
+  - command: nhmmscan
     docker_image: ghcr.io/charlenelawdes/hmmer-docker
     docker_command: nhmmscan
-- command: phmmer
+  - command: phmmer
     docker_image: ghcr.io/charlenelawdes/hmmer-docker
     docker_command: phmmer
   - command: prodigal
