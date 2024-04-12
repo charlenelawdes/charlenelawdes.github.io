@@ -1,5 +1,5 @@
 manifest:
-  name: my_bulker
+  name: mytools
   version: 1.0.0
   commands:
   - command: hmmfetch
